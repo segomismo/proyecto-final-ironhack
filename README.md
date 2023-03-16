@@ -7,3 +7,6 @@ Tras varios intentos (muchos) intentos, se ha conseguido una base de datos de ma
 
 Para analizar las fotografias, se ha investigado minuciosamente (quizá demasiado), las distintas posibilidades mediante inteligencia artificial, siendo OpenCV la que mas se acercaba a lo que se requería.
 
+
+Curiosidad:
+deteccion de ratones
