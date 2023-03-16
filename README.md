@@ -25,8 +25,14 @@ Los pasos a seguir han sido:
 
 
 - Obtención de información de la fotografía (personas, animales, naturaleza)
-    Por medio de las librerias OpenCV y PyTorch, 
+    Por medio de las librerias OpenCV de visión artificial y PyTorch, hemos añadido información 
 
 
-- Obtención de complejidad visual
+- Obtención de complejidad visual:
+    Aquí hemos utilizado tres valores para obtener el nivel de complejidad visual de una fotografía:
+    Entropía: La entropía de una imagen es una medida de la cantidad de información o desorden en la imagen. Una imagen con una gran cantidad de detalles y variaciones de color y textura tendrá una entropía más alta que una imagen simple con pocos detalles y colores.
+    Energía de la imagen: La energía de una imagen se calcula a partir de su histograma de intensidades. Una imagen con una energía alta tendrá una mayor concentración de píxeles en un rango de intensidades más estrecho.
+    Enfoque: El enfoque de una imagen es una medida de la nitidez y los detalles en la imagen. Puedes calcular el enfoque utilizando varios métodos, como el operador de Laplaciano o el operador de Sobel.
+    Mediante la libreria de visión artificial OpenCV, hemos calculado esos tres valores para poderlos aplicar luego de manera correlacional
+
 
