@@ -1,4 +1,4 @@
-# proyecto final ironhack: Pystagram
+# Proyecto final ironhack: Pystagram
 Este proyecto parte de la idea de analizar las fotografías de las distintas paginas de instagram de national geographic y otro tipo de sitios parecidos a ello.
 Para ello, necesitamos crear una base de datos del mayor numero posible de fotografias que podamos conseguir mediante el escreapeo de las paginas de instagram.
 El escreapeo de instagram no ha sido tan sencillo como podria parecer a simple vista, dado que tiene algunos funcionamientos un poco extraños que hacen que se pare el escrapeo a veces de forma aleatoria, y otras veces de forma inesperadamente concreta.
@@ -44,3 +44,6 @@ Si bien es cierto que no se han llegado a demasiadas conclusiones dado la varied
 - Las publicaciones de instagram tienen cada vez menos interacciones
 
 [Aquí dejo toda la información mas en detalle de las conclusiones](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+### Futuros:
+Me quedo con muchas dudas en cuanto a los parámetros que he obtenido en la complejidad visual. Creo que se puede hayar bastante mas información con más tiempo. En cuanto a la entropía, por ejemplo, seguro que está más relacionada con la cantidad de objetos que se pueden identificar que en cuanto la textura de la fotografía
