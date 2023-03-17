@@ -21,7 +21,7 @@ Los pasos a seguir han sido:
 
 
 - Obtención de dominante de color:
-    Mediante la librería PIL (Python Imaging Library), se ha obtenido la dominante de color. Para simplificar el proceso, se ha dividido en solo tres colores: rojo (R), verde (G), azul (B). La elección de estos canales es porque son los principales y mas usados. Se podría haber seleccionado mas colores, pero se ha optado por la simplificación al intentar polarizar resultados
+    Mediante la librería PIL (Python Imaging Library), se ha obtenido la dominante de color. Para simplificar el proceso, se ha dividido en solo tres colores: rojo (R), verde (G), azul (B). La elección de estos canales es porque son los principales y mas usados. Se podría haber seleccionado mas colores, pero se ha optado por la simplificación al intentar polarizar resultados. Otra cosa a considerar para el futuro sería analizar la luminosidad de las fotografías
 
 
 - Obtención de información de la fotografía (personas, animales, naturaleza)
