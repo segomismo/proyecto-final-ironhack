@@ -47,3 +47,5 @@ Si bien es cierto que no se han llegado a demasiadas conclusiones dado la varied
 
 ### Futuros:
 Me quedo con muchas dudas en cuanto a los parámetros que he obtenido en la complejidad visual. Creo que se puede hayar bastante mas información con más tiempo. En cuanto a la entropía, por ejemplo, seguro que está más relacionada con la cantidad de objetos que se pueden identificar que en cuanto la textura de la fotografía
+
+También me ha faltado toda la parte de predicción de impacto que creo que si se podria lograr a cierto nivel con alguna de las paginas que cumplen ciertas correlaciones cocnretas
