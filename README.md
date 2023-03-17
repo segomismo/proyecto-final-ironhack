@@ -10,29 +10,29 @@ Para analizar las fotografias, se ha investigado minuciosamente (quizá demasiad
 
 ## Pasos a seguir:
 Los pasos a seguir han sido:
-- Creación de código para escreapeo de Instagram con Selenium
+- **Creación de código para escreapeo de Instagram con Selenium**
     Para ello, se han guardado las fotografías y se ha creado un archivo .cvs con los datos de la página donde se ha recogido la fotografía, y los distintos parámetros unicos de la fotografia como pueda ser la fecha, el numero de likes, descripción, datos internos de la foto....
 
-    Problemas: Cierta aletoriedad de errores, y otros constantes que no se han podido solucionar. 
+    *Problemas: Cierta aletoriedad de errores, y otros constantes que no se han podido solucionar.*
 
 
-- Limpieza de obtenidos en el escreapeo:
+- **Limpieza de obtenidos en el escreapeo**:
     Mediante la utilización de pandas, se ha procedido a la limpieza del archivo obtenido en el escrapeo con la eliminación de nulos, normalización y reducción del archivo .cvs, dando como resultado un archivo con extensión "_clean.cvs". Una de las cosas que se ha podido hacer por la investigación de los datos que daba la pagina, ha sido agregar si habia personas, animales o naturaleza a cierto numero de fotografías sin necesidad de aplicar IA (aunque se haya aplicado mas adelante). Estos valores, en principio, son mas fiables que los de los obtenidos por IA. Pero al no estar completos en la mayoria de las fotografías, si se ha tenido que recurrir a otro tipo de herramientas. El unico valor fiable ha sido el de que la imagen tenga texto
 
 
-- Obtención de dominante de color:
+- **Obtención de dominante de color**:
     Mediante la librería PIL (Python Imaging Library), se ha obtenido la dominante de color. Para simplificar el proceso, se ha dividido en solo tres colores: rojo (R), verde (G), azul (B). La elección de estos canales es porque son los principales y mas usados. Se podría haber seleccionado mas colores, pero se ha optado por la simplificación al intentar polarizar resultados. Otra cosa a considerar para el futuro sería analizar la luminosidad de las fotografías
 
 
-- Obtención de información de la fotografía (personas, animales, naturaleza)
+- **Obtención de información de la fotografía** (personas, animales, naturaleza)
     Por medio de las librerias OpenCV de visión artificial y PyTorch, hemos añadido información de si hay personas, animales o naturaleza en cada fotografía. Para ello hemos tenido que crear código para poder procesar las imagenes y muchas horas de paciencia mientras se procesaban.
 
 
-- Obtención de complejidad visual:
+- **Obtención de complejidad visual**:
     Aquí hemos utilizado tres valores para obtener el nivel de complejidad visual de una fotografía:
-    Entropía: La entropía de una imagen es una medida de la cantidad de información o desorden en la imagen. Una imagen con una gran cantidad de detalles y variaciones de color y textura tendrá una entropía más alta que una imagen simple con pocos detalles y colores.
-    Energía de la imagen: La energía de una imagen se calcula a partir de su histograma de intensidades. Una imagen con una energía alta tendrá una mayor concentración de píxeles en un rango de intensidades más estrecho.
-    Enfoque: El enfoque de una imagen es una medida de la nitidez y los detalles en la imagen. Puedes calcular el enfoque utilizando varios métodos, como el operador de Laplaciano o el operador de Sobel.
+    ***Entropía***: La entropía de una imagen es una medida de la cantidad de información o desorden en la imagen. Una imagen con una gran cantidad de detalles y variaciones de color y textura tendrá una entropía más alta que una imagen simple con pocos detalles y colores.
+    ***Energía de la imagen***: La energía de una imagen se calcula a partir de su histograma de intensidades. Una imagen con una energía alta tendrá una mayor concentración de píxeles en un rango de intensidades más estrecho.
+    ***Enfoque***: El enfoque de una imagen es una medida de la nitidez y los detalles en la imagen. Puedes calcular el enfoque utilizando varios métodos, como el operador de Laplaciano o el operador de Sobel.
     Mediante la libreria de visión artificial OpenCV, hemos calculado esos tres valores para poderlos aplicar luego de manera correlacional
 
 
