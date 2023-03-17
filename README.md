@@ -25,7 +25,7 @@ Los pasos a seguir han sido:
 
 
 - Obtención de información de la fotografía (personas, animales, naturaleza)
-    Por medio de las librerias OpenCV de visión artificial y PyTorch, hemos añadido información 
+    Por medio de las librerias OpenCV de visión artificial y PyTorch, hemos añadido información de si hay personas, animales o naturaleza en cada fotografía. Para ello hemos tenido que crear código para poder procesar las imagenes y muchas horas de paciencia mientras se procesaban.
 
 
 - Obtención de complejidad visual:
@@ -36,3 +36,11 @@ Los pasos a seguir han sido:
     Mediante la libreria de visión artificial OpenCV, hemos calculado esos tres valores para poderlos aplicar luego de manera correlacional
 
 
+## Correlaciones:
+Si bien es cierto que no se han llegado a demasiadas conclusiones dado la variedad de correlaciones que hay entre las diferentes páginas, hay algunas cosas que si podemos ver.
+
+- Las publicaciones que tienen en su contenido personas son en general menos atractivas que las que ofrecen otro tipo de contenido
+- Los aspectos fotográficos que se han podido analizar con IA no han sido tan determinantes para que haya intereacciones en la mayoria de páginas analizadas
+- Las publicaciones de instagram tienen cada vez menos interacciones
+
+[Aquí dejo toda la información mas en detalle de las conclusiones](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
